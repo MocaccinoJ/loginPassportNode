@@ -1,0 +1,19 @@
+¿Cómo tener autenticaciones en mis aplicaciones de Node.js?
+npm init --yess : crea un pakage json, es decir; solo meta información del proyecyo.
+
+Primera parte:
+Crearemos un lógin a través de un modulo, esta vez utilizaremos passport.
+
+npm install (npm i)
+-express(framework)
+-mongoose(biblioteca que permite conexión con DB)
+-ejs-mate(motor de plantillas)
+-connect-flash(permite la comunicación entre páginas anteriores: es decir, le da memoria a la aplicación)
+-morgan(muestra las peticiones del usuario a través de la consola)
+-passport (permite hacer la autenticacion para el login: cabe destacar que se pueden hacer 
+autenticaciones más allá de manera local, es decir, se pueden hacer autenticaciones a cuentas de 
+google, y cualquier otro servicio de tercero.)
+-passport-local(quiere decir que se utilizará passport desde el servidor propio)
+-bcrypt-nodejs(sirve para cifrar contraseñas al momento de ser creadas: quiere decir que 
+se ocultan en la base de datos)
+-npm i nodemon -D (para hacer que el servidor muestre los cambios en vivo)
